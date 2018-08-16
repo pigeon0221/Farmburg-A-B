@@ -1,0 +1,24 @@
+Linked List - A data structure represented by the connection of nodes, where order is determined by how the nodes are connected.
+Example - Imagine a conga line of people. Imagine each person in the conga line is a 'node' and the person in front of them whose
+shoulders they are touching is the node they are connected to. Each node can store data and to access nodes deeper in the line you
+must pass through the other nodes between them.
+
+Stacks - A data structure that stores information using the LIFO policy or Last in First out. Data is stored similar
+to a stack of books where you can only access the top book. If you were to stack 3 books, the only book you would be able to 
+access would be the last one you placed on top. Which gives it the name Last in First out because you can only access the last thing
+added to the stack. A stack is also a section in a computer memory for static memory.
+
+Hash Map - A hash map is a data structure that stores data based on some hashing function. A hashing function determines where we 
+will store our data. 
+Example - We have a list of names we want to store. For each name we add up the values of each letter (A=1, B=2,...Z=26) and
+store it at that index. The name was the data we were storing, the hashing function was taking the sum of all the letters. This
+data structure gives us much more control over other types.
+
+Trees - A tree is a data structure where data is stored in nodes known an 'parent' and 'child' nodes. A good way to think of this
+is like your own family tree. You and your siblings are the child nodes of your parents. And you parents/aunts/uncles are the child
+nodes of their parents. Trees are an important data structure because unlike stacks and lists the data is stored non-linearly and
+can be better organized.
+
+Heaps - A heap is similar to a tree in structure, but is more specialized. Heaps can be made to have certain properties like "Min-Heap"
+where each node is greater than or equal to it's parent. A heap is also a section in a computer memories for dynamic memeory. This
+memory takes longer to access than the stack.
